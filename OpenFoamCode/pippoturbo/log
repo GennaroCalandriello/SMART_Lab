@@ -1,0 +1,70 @@
+/*---------------------------------------------------------------------------*\
+| =========                 |                                                 |
+| \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox           |
+|  \\    /   O peration     | Version:  2412                                  |
+|   \\  /    A nd           | Website:  www.openfoam.com                      |
+|    \\/     M anipulation  |                                                 |
+\*---------------------------------------------------------------------------*/
+Build  : d3949086ce-20241220 OPENFOAM=2412 version=v2412
+Arch   : "LSB;label=32;scalar=64"
+Exec   : ideasUnvToFoam 2Dcavity.unv
+Date   : Apr 29 2025
+Time   : 20:57:06
+Host   : MSI
+PID    : 61174
+I/O    : uncollated
+Case   : /home/richard/OpenFOAM/richard-v2412/run/tutorials/incompressible/simpleFoam/pippoturbo
+nProcs : 1
+trapFpe: Floating point exception trapping enabled (FOAM_SIGFPE).
+fileModificationChecking : Monitoring run-time modified files using timeStampMaster (fileModificationSkew 5, maxFileModificationPolls 20)
+allowSystemOperations : Allowing user-supplied system call operations
+
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+Create time
+
+Processing tag:164
+Starting reading units at line 3.
+l:1
+units:"  SI: Meter (newton)"
+unitType:2
+Unit factors:
+    Length scale       : 1
+    Force scale        : 1
+    Temperature scale  : 1
+    Temperature offset : 273.15
+
+
+Processing tag:2420
+Skipping tag 2420 on line 9
+Skipping section at line 9.
+
+Processing tag:2411
+Starting reading points at line 20.
+Read 36706 points.
+
+Processing tag:2412
+Starting reading cells at line 73435.
+First occurrence of element type 11 for cell 1 at line 73436
+First occurrence of element type 41 for cell 921 at line 78932
+First occurrence of element type 44 for cell 36788 at line 150516
+First occurrence of element type 112 for cell 74329 at line 223924
+Read 35792 cells and 72496 boundary faces.
+
+Processing tag:2467
+Starting reading patches at line 295510.
+For group 1 named inlet trying to read 75 patch face indices.
+For group 2 named upperWall trying to read 187 patch face indices.
+For group 3 named outlet trying to read 75 patch face indices.
+For group 4 named building trying to read 385 patch face indices.
+For group 5 named front trying to read 35792 patch face indices.
+For group 6 named edges trying to read 4 patch face indices.
+For group 7 named back trying to read 35792 patch face indices.
+For group 8 named lowerWall trying to read 575 patch face indices.
+
+Sorting boundary faces according to group (patch)
+0: inlet is patch
+1: upperWall is patch
+2: outlet is patch
+3: building is patch
+4: front is patch
+5: edges is faceZone

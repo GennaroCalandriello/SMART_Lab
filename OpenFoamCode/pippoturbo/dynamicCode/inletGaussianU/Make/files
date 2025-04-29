@@ -1,0 +1,6 @@
+/* dynamicCode:
+ * SHA1 = d48e94c91ba2f1a5325bb07ab595b8946b7a3b6a
+ */
+fixedValueFvPatchFieldTemplate.C
+
+LIB = $(PWD)/../platforms/$(WM_OPTIONS)/lib/libinletGaussianU_d48e94c91ba2f1a5325bb07ab595b8946b7a3b6a
